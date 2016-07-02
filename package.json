@@ -1,0 +1,23 @@
+{
+  "name": "linter-hodgepodge",
+  "version": "0.1.0",
+  "description": "Linter大杂烩，在node程序中，使用各种linter，并生成html报告。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstarorg/linter-hodgepodge.git"
+  },
+  "keywords": [],
+  "author": "Jay.M.Hu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hstarorg/linter-hodgepodge/issues"
+  },
+  "homepage": "https://github.com/hstarorg/linter-hodgepodge#readme",
+  "dependencies": {
+    "jshint": "^2.9.2"
+  }
+}

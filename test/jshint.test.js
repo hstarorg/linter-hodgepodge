@@ -6,4 +6,4 @@ let a =linter.jshint([
   './lib/**/*.js',
   '!./*.md'
 ]);
-console.log(a.reporterAsFile('test.html'));
+console.log(a.reporterAsFile('./test/test.html'));

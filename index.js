@@ -1,5 +1,7 @@
 'use strict';
 
+let jshintTool = require('./lib/jshint/jshintTool');
+
 module.exports = {
-  JsHintReporter: require('./lib/jshint/jshintReporter')
+  jshint: jshintTool.jshint
 };

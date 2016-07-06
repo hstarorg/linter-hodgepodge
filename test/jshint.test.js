@@ -1,3 +1,9 @@
 'use strict';
 
-let JsHintReporter = require('./../index').JsHintReporter;
+let linter = require('./../index');
+
+let a =linter.jshint([
+  './lib/**/*.js',
+  '!./*.md'
+]);
+console.log(a.reporterAsFile('test.html'));

@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v0.1.3（2016.7.7）
+
+- 删除不必要的console。
+
 ## v0.1.2（2016.7.7）
 
 - 修复jshint的检查结果有null，导致生成报告出错的bug。

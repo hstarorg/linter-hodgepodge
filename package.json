@@ -1,6 +1,6 @@
 {
   "name": "linter-hodgepodge",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Linter大杂烩，在node程序中，使用各种linter，并生成html报告。",
   "main": "index.js",
   "scripts": {
